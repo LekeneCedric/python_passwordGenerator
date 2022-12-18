@@ -3,3 +3,6 @@ init:
 
 test:
 	nosetests tests
+
+run:
+	python3 sample/main.py
