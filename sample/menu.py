@@ -74,7 +74,9 @@ def result_custom_menu(password,lenght,require):
     print("|----------------------------------------------------------------------------|")
     print("|  2 - Back                                                                  |")
     print("|----------------------------------------------------------------------------|")
-    print("|  3 - Exit                                                                  |")
+    print("|  3 - Back To Main Menu                                                     |")
+    print("|----------------------------------------------------------------------------|")
+    print("|  4 - Exit                                                                  |")
     print("|----------------------------------------------------------------------------|")
     print("|----------------------------------------------------------------------------|")
     choix = int(input(">>"))
@@ -84,6 +86,8 @@ def result_custom_menu(password,lenght,require):
         case 2 :
             custom_sub_menu(0,None,None,None,None)
         case 3:
+            principal_menu()
+        case 4:
             print("See you soon :) ")
             exit(-1)
         case _:
@@ -99,7 +103,9 @@ def result_simple_menu(password,lenght):
     print("|----------------------------------------------------------------------------|")
     print("|  2 - Regenerate with same lenght                                           |")
     print("|----------------------------------------------------------------------------|")
-    print("|  3 - Exit                                                                  |")
+    print("|  3 - Back                                                                  |")
+    print("|----------------------------------------------------------------------------|")
+    print("|  4 - Exit                                                                  |")
     print("|----------------------------------------------------------------------------|")
     print("|----------------------------------------------------------------------------|")
     choix = int(input(">>"))
@@ -109,6 +115,8 @@ def result_simple_menu(password,lenght):
         case 2 :
           result_simple_menu(generate_simple_password(lenght),lenght)  
         case 3:
+            principal_menu()
+        case 4:
             print("See you soon :) ")
             exit(-1)
         case _:

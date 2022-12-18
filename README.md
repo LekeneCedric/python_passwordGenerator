@@ -27,3 +27,11 @@ make run
 
 If you want to ocntribute ``setup.py`` 
 <https://github.com/LekeneCedric/password_generator/issues>
+
+Preview
+===
+![alt text](./docs/img/s1.png)
+![alt text](./docs/img/s2.png)
+![alt text](./docs/img/s3.png)
+![alt text](./docs/img/s4.png)
+![alt text](./docs/img/s5.png)
